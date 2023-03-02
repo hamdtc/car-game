@@ -10,7 +10,7 @@ let keys = {
 };
 startScreen.addEventListener("click", start);
 document.addEventListener("keydown", pressOn);
-document.addEventListener("keyup", pressOff);
+document.addEventListener("keyup", pressOff );
 function moveLines() {
   let lines = document.querySelectorAll(".line");
   lines.forEach(function (item) {
